@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send repo to Dataverse 
-      - uses: actions/checkout@v5
-      - uses: IQSS/dataverse-uploader@v1.7
+        uses: actions/checkout@v5
+        uses: IQSS/dataverse-uploader@v1.7
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://demo.borealis.ca
