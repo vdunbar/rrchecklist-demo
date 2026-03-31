@@ -1,0 +1,290 @@
+---
+title: "Reliable Research Practices Checklist"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    number_sections: false
+  pdf_document:
+    toc: false
+    number_sections: false
+    keep_tex: false
+header-includes:
+  - \usepackage{hyperref}
+  - \hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+geometry: margin=1in
+fontsize: 11pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+<style>
+ul li input[type="checkbox"] { margin-right: 0.4em; }
+</style>
+
+## Project Information
+
+**Project Title:** _[Enter project title]_
+
+**Manuscript Title:** _[Enter manuscript title if different]_
+
+**Date Completed:** `r Sys.Date()`
+
+**ORCID:** _[Enter your ORCID]_
+
+---
+
+**Instructions:** Check off items as you complete them throughout your research project. Optionally, add notes or links to documentation (e.g., pre-registration URLs, repository links) beneath relevant sections to provide evidence for peer review.
+
+---
+
+\newpage
+
+# A. PLANNING YOUR RESEARCH
+
+## Study Rationale and Planning
+
+- [ ] Objectively establish the state of knowledge through unbiased literature assessment
+
+- [ ] Articulate research questions (exploratory) and/or hypotheses (confirmatory)
+
+- [ ] Articulate how each question/hypothesis will be evaluated
+
+- [ ] Define target population(s)
+
+- [ ] Define scope of inference
+
+- [ ] Define units of observation
+
+- [ ] Identify those who could be impacted by the research (if applicable)
+
+- [ ] If applicable, document any re-use/overlap of data from previous/ongoing research
+
+- [ ] Specify whether study is experimental, quasi-experimental, or observational (units not randomly assigned to treatments = observational or quasi-experimental)
+
+- [ ] If observational or quasi-experimental, plan how sampling bias will be minimized
+
+- [ ] If experimental, plan for proper controls, randomization, and blinding (where appropriate)
+
+- [ ] If experimental, describe and rationalize all interventions/treatments
+
+- [ ] If confirmatory, conduct prospective power analysis using relevant statistical methods and plausible effect sizes
+
+- [ ] If exploratory, justify sample sizes based on feasibility, resource constraints, or desired precision
+
+- [ ] If confirmatory, detail what would constitute evidence (i) consistent with and (ii) contrary to each distinct hypothesis
+
+- [ ] If confirmatory, plan P-value adjustments for multiple testing where appropriate
+
+- [ ] If observational or quasi-experimental, describe and rationalize all dependent and independent variables
+
+- [ ] Describe and rationalize structure of statistical model for each planned analysis
+
+- [ ] Specify how statistical model assumptions will be checked
+
+- [ ] Articulate ethical considerations where appropriate
+
+- [ ] Complete ethics approvals prior to data collection
+
+- [ ] Consider sensitivity analysis to evaluate robustness of findings to alternative data pre-processing and/or analysis methods
+
+**Notes:**
+
+\vspace{1cm}
+
+## Research Partnerships and Contributions
+
+- [ ] Establish research partnerships considering ethical, cultural, and practical dimensions
+
+- [ ] Ensure those potentially impacted by research can contribute meaningfully to design, implementation, and dissemination (where applicable)
+
+- [ ] Plan to track all contributors and contributions throughout project using CRediT or MeRIT frameworks
+
+- [ ] Encourage all contributors to acquire an ORCID
+
+- [ ] Plan for appropriate licenses for all outputs
+
+**Notes:**
+
+\vspace{1cm}
+
+## Pre-registration, Workflow Transparency, and Data Management
+
+- [ ] Pre-register study design and analysis plan in a public repository (embargo if necessary)
+
+- [ ] Create a data management plan (DMP)
+
+- [ ] Consider using transparent/open, version-controlled reporting systems
+
+**Notes:**
+
+\vspace{1cm}
+
+## Peer Review and Feedback
+
+- [ ] Have research plan reviewed by subject matter experts
+
+- [ ] Have research plan reviewed by peers outside your immediate field
+
+**Notes:**
+
+\vspace{1cm}
+
+---
+
+\newpage
+
+# B. CONDUCTING YOUR RESEARCH
+
+## Documentation and Transparency
+
+- [ ] Document data and procedures as per planned protocols and DMP
+
+- [ ] Document deviations from planned protocols (e.g., loss of samples, measurement mistakes)
+
+- [ ] Document data exclusions with justification
+
+**Notes:**
+
+\vspace{1cm}
+
+---
+
+\newpage
+
+# C. REPORTING, INTERPRETING, AND COMMUNICATING YOUR RESEARCH FINDINGS
+
+## Reporting and Transparency
+
+- [ ] Report all unanticipated incidents (e.g., loss of samples, measurement mistakes)
+
+- [ ] Connect each analysis with a specific question or hypothesis
+
+- [ ] Distinguish exploratory from confirmatory analyses
+
+- [ ] Report whether analyses were planned or unplanned
+
+- [ ] Report results of checks on model assumptions
+
+- [ ] Report effect sizes with uncertainty measures (e.g., confidence intervals) for all analyses
+
+- [ ] If confirmatory, report effect sizes (with confidence intervals) alongside P-values
+
+- [ ] If confirmatory, report adjusted P-values for multiple testing (where appropriate)
+
+- [ ] If exploratory, report effect sizes (with confidence intervals)
+
+- [ ] Include figures that reveal rather than conceal data
+
+- [ ] Use accessible visualizations (e.g., accessible colour palettes in figures)
+
+- [ ] Consistently report sample sizes for all analyses, treatments, figures, and tables
+
+**Notes:**
+
+\vspace{1cm}
+
+## Interpretation and Context
+
+- [ ] Articulate scientific significance of each finding
+
+- [ ] Where appropriate, articulate practical relevance to all stakeholders
+
+- [ ] Discuss real-world relevance of effect sizes
+
+- [ ] Interpret findings objectively
+
+- [ ] Reference both supportive and contrary findings
+
+- [ ] Discuss study limitations
+
+- [ ] If observational or quasi-experimental, acknowledge limits to causal inference
+
+- [ ] Discuss alternative interpretations of findings
+
+- [ ] Avoid persuasive language
+
+- [ ] Avoid overselling or over-generalizing findings beyond target population
+
+- [ ] Clearly label any speculation as such
+
+**Notes:**
+
+\vspace{1cm}
+
+## Additional Reporting
+
+- [ ] Refer to ethics approvals and/or permits where necessary
+
+- [ ] Describe each author's roles in the research using CRediT or MeRIT
+
+- [ ] Encourage all contributors to acquire an ORCID
+
+- [ ] Acknowledge any conflicts of interest
+
+- [ ] Acknowledge all funding supports
+
+- [ ] Acknowledge any use of AI tools
+
+- [ ] Acknowledge all (non-authors) who contributed to the research
+
+**Notes:**
+
+\vspace{1cm}
+
+---
+
+\newpage
+
+# D. ENHANCING REPLICABILITY, DISCOVERABILITY, ACCESSIBILITY, AND REACH
+
+## Data and Code Sharing
+
+- [ ] Ensure data are as open as possible and as closed as necessary according to FAIR principles
+
+- [ ] Where relevant, ensure data are as open as possible and as closed as necessary according to CARE principles
+
+- [ ] Archive data in an appropriate repository with detailed metadata
+
+- [ ] Ensure executable analysis code is as open as possible and as closed as necessary
+
+- [ ] Archive code in an appropriate repository
+
+**Notes:**
+
+\vspace{1cm}
+
+## Publication and Dissemination
+
+- [ ] Publish Open Access and/or as a preprint
+
+- [ ] Follow best practices for title, abstract, and keywords
+
+- [ ] Consider creating a broadly-accessible infographic for extension purposes
+
+**Notes:**
+
+\vspace{1cm}
+
+---
+
+\newpage
+
+# Documentation & Evidence
+
+Use this section to provide links and evidence for checklist items (e.g., pre-registration URLs, data repository links, ethics approval numbers).
+
+\vspace{5cm}
+
+---
+
+**References:**
+
+Pither, J. and Vis-Dunbar, M. (2026). Concise guidelines for producing reliable, reproducible research. CC BY-NC-SA 4.0.
+
+**Checklist Citation:** _[This section can be used to cite this checklist if submitted with a manuscript]_

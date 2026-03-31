@@ -1,0 +1,20 @@
+Package: rrchecklist
+Type: Package
+Title: Reliable Research Practices Checklist
+Version: 0.2.0
+Authors@R: c(
+    person("Jason", "Pither", email = "pitherj@gmail.com", role = c("aut", "cre")),
+    person("Mathew", "Vis-Dunbar", role = "aut"))
+Description: Provides two checklists for reliable research practices in both
+    R Markdown and Quarto formats: evaluating primary research and documenting reliable
+    research practices. Checklists cover study planning, conducting research, reporting
+    findings, and enhancing transparency. Researchers can complete checklists and render
+    to PDF or HTML for submission alongside manuscripts during peer review.
+License: GPL-2
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Suggests:
+    knitr,
+    quarto,
+    rmarkdown,
+    rstudioapi

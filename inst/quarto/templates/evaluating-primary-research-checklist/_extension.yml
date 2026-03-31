@@ -1,0 +1,9 @@
+title: Evaluating Primary Research Checklist
+author: Jason Pither and Mathew Vis-Dunbar
+version: 0.1.0
+quarto-required: ">=1.2.0"
+contributes:
+  templates:
+    - name: evaluating-primary-research-checklist
+      description: "A checklist for critically evaluating primary research publications"
+      path: template.qmd

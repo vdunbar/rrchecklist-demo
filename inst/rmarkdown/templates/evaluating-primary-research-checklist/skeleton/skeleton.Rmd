@@ -1,0 +1,218 @@
+---
+title: "Checklist for Evaluating Primary Research"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    number_sections: false
+  pdf_document:
+    toc: false
+    number_sections: false
+    keep_tex: false
+header-includes:
+  - \usepackage{hyperref}
+  - \hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+geometry: margin=1in
+fontsize: 11pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+<style>
+ul li input[type="checkbox"] { margin-right: 0.4em; }
+</style>
+
+## Evaluation Information
+
+**Manuscript/Study Title:** _[Enter title]_
+
+**Citation/DOI:** _[Enter citation or DOI]_
+
+**Evaluator:** `r rmarkdown::metadata$author`
+
+**Date:** `r Sys.Date()`
+
+---
+
+**Instructions:** Use this checklist to systematically evaluate primary research publications. Check off items as you assess them. Add notes to document your evaluation and identify strengths or concerns.
+
+---
+
+\newpage
+
+## Study Rationale and Planning
+
+- [ ] Objectively establishes the state of knowledge through unbiased literature assessment
+
+- [ ] Articulates research questions (exploratory) and/or hypotheses (confirmatory)
+
+- [ ] Articulates how each question/hypothesis will be evaluated
+
+- [ ] Defines target population(s), scope of inference, and units of observation
+
+- [ ] Identifies others who could be impacted by the research (if applicable)
+
+- [ ] Specifies whether study is experimental, quasi-experimental, or observational
+
+- [ ] If observational or quasi-experimental, study describes how sampling bias was minimized
+
+- [ ] If experimental, study employs proper controls, randomization, and blinding (where appropriate)
+
+- [ ] If confirmatory, study explicitly considers statistical power
+
+- [ ] If confirmatory, study details what would constitute evidence (i) consistent with and (ii) contrary to each distinct hypothesis
+
+- [ ] If observational or quasi-experimental, study describes and rationalizes all dependent and independent variables
+
+- [ ] If experimental, study describes and rationalizes all interventions/treatments
+
+- [ ] If confirmatory, study appropriately considers P-value adjustments for multiple testing where appropriate
+
+- [ ] Describes and rationalizes structure of statistical model for each analysis
+
+- [ ] Describes how statistical model assumptions will be checked
+
+- [ ] Articulates ethical considerations where appropriate
+
+- [ ] BONUS: Study references pre-registration or registered report
+
+**Notes:**
+
+\vspace{1cm}
+
+---
+
+## Reporting and Transparency
+
+- [ ] Reports all unanticipated incidents (e.g., loss of samples; measurement mistakes)
+
+- [ ] If applicable, study details any re-use/overlap of data from previous/ongoing research
+
+- [ ] Connects each analysis with a question or hypothesis
+
+- [ ] Distinguishes exploratory from confirmatory analyses
+
+- [ ] Reports results of evaluations of statistical model assumptions
+
+- [ ] Reports effect sizes with uncertainty measures (e.g., confidence intervals)
+
+- [ ] Reveals rather than conceals data (e.g., shows individual data points in figures)
+
+- [ ] Uses accessible visualizations (e.g., accessible colour palettes in figures)
+
+- [ ] Reports findings of all planned analyses
+
+- [ ] If included, all unplanned analyses and associated results are clearly labelled as such
+
+- [ ] Consistently reports sample sizes for all analyses and figures
+
+- [ ] Provides access to raw data according to FAIR principles
+
+- [ ] Provides reproducible analysis code and workflows
+
+- [ ] Refers to ethics approvals and/or permits where necessary
+
+- [ ] Describes each author's roles in the research
+
+- [ ] Acknowledges any conflicts of interest
+
+- [ ] Acknowledges all funding supports
+
+- [ ] Acknowledges any use of AI tools
+
+- [ ] Includes acknowledgments of contributions by non-authors
+
+**Notes:**
+
+\vspace{1cm}
+
+---
+
+## Interpretation and Context
+
+- [ ] Articulates scientific significance of each finding
+
+- [ ] Where appropriate, articulates practical relevance to all stakeholders
+
+- [ ] References both supportive and contrary findings
+
+- [ ] Discusses study limitations
+
+- [ ] If observational or quasi-experimental, study acknowledges limits to causal inference
+
+- [ ] Discusses alternative interpretations of findings
+
+- [ ] Avoids overselling or over-generalizing findings
+
+- [ ] Any speculation is clearly labelled as such
+
+**Notes:**
+
+\vspace{1cm}
+
+---
+
+## Additional Considerations for Community-Engaged Research
+
+- [ ] Those potentially impacted by the research played a role in designing the study
+
+- [ ] Partners and participants were meaningfully involved
+
+- [ ] CARE guidelines were followed
+
+- [ ] Research extends meaningfully to those impacted
+
+- [ ] Data ownership and sovereignty considerations are addressed
+
+**Notes:**
+
+\vspace{1cm}
+
+---
+
+## Warning signs (no checkmark = better)
+
+- [ ] Published in a predatory journal
+
+- [ ] Uses sensationalist or emotive language
+
+- [ ] Uses phrase "marginally significant"
+
+- [ ] Uses phrase "preliminary findings" without articulating if and how a preliminary study was planned
+
+- [ ] Conceals rather than reveals the data
+
+- [ ] Is clearly exploratory but emphasizes P-values
+
+- [ ] Reports results of analyses that were not planned or described in methods
+
+- [ ] Draws causal inferences from observational research with minimal justification
+
+- [ ] References primarily supportive works while ignoring contrary findings
+
+- [ ] Appears to disguise exploratory research as confirmatory research
+
+- [ ] Presents a pilot study as confirmatory research without acknowledging its exploratory elements or deviations from intended design
+
+**Notes:**
+
+\vspace{1cm}
+
+---
+
+## Overall Assessment
+
+**Summary:**
+
+\vspace{3cm}
+
+---
+
+**Reference:**
+
+Pither, J. and Vis-Dunbar, M. (2026). Concise guidelines for producing reliable, reproducible research. CC BY-NC-SA 4.0.
