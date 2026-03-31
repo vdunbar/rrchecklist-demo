@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: [actions/checkout@v5](https://github.com)
+        uses: actions/checkout@v5
       - name: Send repo to Dataverse
         uses: ./.github/workflows/dataverse-uploader
         with:
