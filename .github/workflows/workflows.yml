@@ -11,7 +11,7 @@ jobs:
         with:
           path: repo 
       - name: Send repo to Dataverse
-        uses: ./dataverse-uploader@v1.7
+        uses: ./.github/workflows/dataverse-uploader/
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://demo.borealis.ca
