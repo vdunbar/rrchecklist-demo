@@ -12,7 +12,7 @@ jobs:
         uses: ./.github/workflows/dataverse-uploader
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
-          DATAVERSE_SERVER: https://demo.borealis.ca
+          DATAVERSE_SERVER: https://demo.borealisdata.ca
           DATAVERSE_DATASET_DOI: doi:10.80240/FK2/B6TQFU
           DELETE: False
           
