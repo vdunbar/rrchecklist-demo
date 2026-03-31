@@ -13,3 +13,4 @@ jobs:
           DATAVERSE_SERVER: https://demo.borealis.ca
           DATAVERSE_DATASET_DOI: doi:10.80240/FK2/B6TQFU
           DELETE: False
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: True
