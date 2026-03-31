@@ -39,7 +39,7 @@ def check_dataset_lock(num):
         return
 
     query_str = dataverse_server + \
-         'dataset.xhtml?' + str(dataset_dbid) + '/locks/'
+         '/api/datasets/' + str(dataset_dbid) + '/locks/'
     resp_ = requests.get(query_str, auth = (token, ""))
     locks = resp_.json()['data']
 
