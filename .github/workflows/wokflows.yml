@@ -5,11 +5,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: True
     steps:
       - name: Send repo to Dataverse 
-        uses: IQSS/dataverse-uploader@v1.7
+        uses: |
+          IQSS/dataverse-uploader@v1.7
+          actions/checkout@v5
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://demo.borealis.ca
